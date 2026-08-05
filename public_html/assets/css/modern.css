@@ -1,0 +1,15 @@
+/* Modern Theme Overlay — Supplements gym_layout.css */
+@import url('gym_layout.css');
+
+.modern-card {
+  background: var(--gym-bg-card);
+  border: 1px solid var(--gym-border);
+  border-left: 4px solid var(--gym-yellow);
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transition: var(--gym-transition);
+}
+
+.modern-card:hover {
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.5);
+}

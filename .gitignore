@@ -1,0 +1,17 @@
+# Environment variables
+.env
+
+# Production DB dumps
+u587167041_*.sql
+database/u587167041_*.sql
+*.sql.gz
+*.sql.bak
+
+# System & OS files
+.DS_Store
+Thumbs.db
+
+# Dynamic temporary or runtime uploads (optional local cache)
+public_html/phpqrcode/cache/*
+!public_html/phpqrcode/cache/.gitkeep
+
